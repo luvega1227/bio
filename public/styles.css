@@ -1,0 +1,74 @@
+
+  body {
+    background-color: #696969;
+  }
+
+  .jumbotron{
+    height:900px;
+    background-color:#000000;
+    margin-top: -15;
+    margin-left:auto;
+    margin-right:auto;
+    padding:120px;
+  }
+
+  img {
+  display: block;
+  margin-top: -80px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: #696969;
+  border-width: 3px;
+  }
+
+  h1.name{
+    text-align:center;
+    color: white;
+    font-family: fantasy;
+    font-size: 40px;
+  }
+
+  h4.title{
+    text-align:center;
+    color: white;
+    font-family: inherit;
+    font-size: 17px;
+  }
+
+  p.links{
+    text-align:center;
+    color: grey;
+    font-family: inherit;
+    font-size: 15px;
+  }
+
+  table, th, td {
+      padding: 15px;
+      color: white;
+      border: 1px solid white;
+      font-family: fantasy;
+      font-size: 130%;
+      border-spacing: 15px 15px;
+  }
+
+
+  /* unvisited link */
+  a:link {
+      color: purple;
+  }
+
+  /* visited link */
+  a:visited {
+      color: grey;
+  }
+
+  /* mouse over link */
+  a:hover {
+      color: yellow;
+  }
+
+  /* selected link */
+  a:active {
+      color: purple;
+  }
